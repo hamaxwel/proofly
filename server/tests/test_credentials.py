@@ -7,7 +7,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import pytest
 from cryptography.fernet import Fernet
 
-@pytest.fixture(scope="module")
+@pytest.fixture(scope="function")
 def did_and_keys(client):
     # Create a DID
     resp = client.post("/did/create")
