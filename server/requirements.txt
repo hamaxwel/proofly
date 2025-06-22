@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+sqlalchemy
+cryptography
+pydantic
+base58
+httpx
+pytest
+python-dotenv
+slowapi
+psycopg2-binary
+python-multipart
+alembic
